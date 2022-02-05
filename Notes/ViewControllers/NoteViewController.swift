@@ -159,7 +159,7 @@ class NoteViewController: UIViewController {
         bottomConstraintTV = noteTextView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -32)
         bottomConstraintTV?.isActive = true
         NSLayoutConstraint.activate([
-            noteTextView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
+            noteTextView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8),
             noteTextView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             noteTextView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16)
         ])
